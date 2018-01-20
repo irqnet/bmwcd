@@ -41,9 +41,9 @@ import xml.etree.ElementTree as etree
 ### this._flatten = "attributesMap, vehicleMessages, cbsMessages, twoTimeTimer, characteristicList, lifeTimeList, lastTripList, remoteServiceEvent";
 ### this._arrays = "lastTripList|name|lastTrip|unit, specs|key|value, service|name|services, cdpFeatures|name|status, cbsMessages|text|date, lifeTimeList|name|value, characteristicList|characteristic|quantity, remote_history|eventId";
 
-### FOUTMELDINGEN GEZIEN
-### 200 == goed
-### 302 == onbekend
+### Status/Error Messages
+### 200 == good
+### 302 == unknown
 ### 401 == Authotization error with {host}! Please check your credentials!
 ### 503 == Service unavailable. Please try later from {host}
 ### 404 == Not allowed?
